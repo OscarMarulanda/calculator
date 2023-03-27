@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    background-color: black;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    background-color: black;
+    padding: 10px;
+    border-top: 20px rgb(240, 234, 234);
+  }
+
+  .grid-item {
+    background-color: black;
+    border: 1px solid #000000;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-radius: 50%;
+    
+    
+  }
+
+  .grid-item-cal, .grid-item-call {
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(252, 115, 3);
+    font-weight: 700;
+    border-radius: 50%;
+    
+  }
+
+#display{
+    color: white;
+    font-size: 40px;
+    text-align: end;
+    padding: 20px;
+    background-color: black;
+    border-bottom: 2px solid hsla(0, 2%, 27%, 0.8);
+}
+
+.super-container{
+    background-color: black;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+
+}
